@@ -1,0 +1,42 @@
+#url: https://y7kim.github.io
+baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: OMG Apps
+email: ola.goransson@me.com
+description: "Mobile developer portfolio for Ola Göransson - iOS and Android."
+
+
+# Team names, titles and social links
+people:
+
+- name: Ola Göransson
+  pic: 4
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: http://twitter.com/omgoransson
+    - title: github
+      url: https://github.com/omgoransson
+    - title: stack-overflow
+      url: https://stackoverflow.com/users/8617030/omgoransson
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/omgoransson
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/8617030/omgoransson
+  - title: bitbucket
+    url: https://bitbucket.org/omgoransson/
+  - title: github
+    url: https://github.com/omgoransson
+
+# Postal address (add as many lines as necessary)
+address:
+#  - line: 3481 Melrose Place
+  - line: 211 19 Malmö
+
+# Build settings
+markdown: kramdown
+permalink: pretty

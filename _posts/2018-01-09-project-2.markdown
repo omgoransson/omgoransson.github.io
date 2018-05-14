@@ -1,0 +1,30 @@
+---
+title: Priskartan
+subtitle: iOS group project
+layout: default
+modal-id: 2
+date: 2018-01-09
+img: Priskartan-thumbnail.png
+thumbnail: Priskartan-thumbnail.png
+alt: image-alt
+project-date: November 2017
+client: Malmö Yrkeshögskola
+category: iOS Development
+description:
+  Priskartan is an app for visualization of data about the Swedish housing market by plotting sold objects on a map based on the sales price.<br><br>
+
+  <h4>My primary contributions</h4><br>
+  I was primarily concerned with building the network and data layers, working within the limitations put up by Booli.com when providing the data.<br><br>
+
+  The largest obstacle to get around was the limit of the number of data objects that could be retrieved per request. My first naive solution was to let every request spawn a new request if there still were more objects to fetch. My next, better, solution was to work with <strong>Dispatch groups</strong> and queue up all requests needed to get all data and dispatch them concurrently. When all requests had completed the JSON-data was aggregated and parsed. The new solution managed to reduced the time to fetch large data sets to less than a third of the original time taken.<br><br>
+
+  I built the parser for the complex data objects received from the Booli.com endpoint. The parser is based on the <strong>Codable</strong> protocol first launched with Swift 3.<br><br>
+
+  Working with a designer allowed me to build a tailored user interface for the detail screen, where I had to build custom UI components to get the required blur effect on scrolling. The major hurdles when building the UI was making sure I also looked good on the newly launched iPhone X.<br><br>
+
+  - - - -<br>
+  <h5>Problems we haven’t solved</h5><br>
+
+  Displaying very large data sets on the map doesn’t zoom or scroll smoothly. If we had our own backend we could have worked with tiles for the larger zoom levels and not display annotations until getting down to the lower zoom levels.
+
+---

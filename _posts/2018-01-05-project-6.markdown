@@ -1,0 +1,57 @@
+---
+title: Read Thai
+subtitle: Android client project
+layout: default
+modal-id: 6
+date: 2018-01-05
+img: ReadThai-thumbnail.png
+thumbnail: ReadThai-thumbnail.png
+alt: image-alt
+project-date: May 2018
+client: Rakang Software
+category: Android Development
+description:
+
+  <h5>Responsibilites</h5>
+
+  Backend integration<br>
+  Setting up repositiories<br>
+  Setting up data classes<br>
+  Fetching and merging data from Firebase & Firestore<br>
+  User interface<br>
+  Building Login screen<br>
+  Buliding chapter list screen<br>
+  Bulding about screen<br>
+  Building settings screen<br>
+  Building Preloading screen observing a background service<br>
+  Implementing User authentication<br>
+  Using FirebaseUI & FirebaseAuth<br>
+  Google TextToSpeech<br>
+
+  <h5>Issues & Problems</h5>
+
+  Spent 2-3 weeks on writing and debugging a prefetch service to download and cashe all the sounds used in the app<br>
+  Later rewrote to use on the fly generation and could scrap all caching and background service headaches<br>
+  Merging firestore data and firebase real time database data into one object<br>
+  With help from PerErik, wrote custom MediatorLiveData with state<br>
+
+
+  <h5>Strategies</h5>
+
+  Pair programming<br>
+  Remote work<br>
+
+  <h5>Learning oppertunities</h5>
+
+  Kotlin<br>
+  Firebase intricacies with Firestore vs Realtime<br>
+  Pitfalls on Fragments lifecycle<br>
+  Data binding and writing custom BindingAdapters<br>
+  Clean separation and hiding<br>
+  Refactoring<br>
+  Code review<br>
+  Git workflow from terminal<br>
+  Custom drawables<br>
+  Versioning and custom build scripts with feature flags<br>
+
+---

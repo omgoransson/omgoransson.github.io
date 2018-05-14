@@ -1,0 +1,25 @@
+---
+title: Treehouse
+subtitle: Android group project
+layout: default
+modal-id: 5
+date: 2018-01-06
+img: Kaffekassan-thumbnail.png
+thumbnail: Kaffekassan-thumbnail.png
+alt: image-alt
+project-date: March 2018
+client: Malmö Yrkeshögskola
+category: Android Development
+description:
+  Kaffekassan is a micro-economy built on trust. Here we have digitized the traditional kaffekassa that’s ubiquitous in workplaces, clubs and organisations.<br><br>
+
+  <h4>My primary contributions</h4><br>
+  I was primarily concerned with building UI and the working with the database, merging data from several places into one usable data object.<br><br>
+
+  Our main challenge was structuring the database to avoid overlapping but also make it easy to access and change many different nodes at the same time. We use Firestore that makes advanced querying simpler than in Firebase.
+  The UI reacts to model changes through Livedata which gets passed to it from a repository via a  usecase and a viewmodel. We built usecases that handles every specific task on a screen, ex. <i>get all groups where user A  is member</i> or <i>get all transactions from User B</i>.<br><br>
+
+  Kaffekassan was a team project at Malmö Yrkeshögskola together with  Max Modesto Wallin, Calle Engene and Jonas Haag.<br><br>
+
+
+---
