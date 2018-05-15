@@ -7,14 +7,14 @@
     <title>Hitta Postlåda</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Mobile developer portfolio for Ola Göransson - iOS and Android.">
-    <link rel="canonical" href="http://localhost:4000/agency-jekyll-theme//web%20development/2018/01/07/project-4/">
+    <link rel="canonical" href="http://localhost:4000/web%20development/2018/01/07/project-4/">
 
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="/agency-jekyll-theme//style.css">
+    <link rel="stylesheet" href="/style.css">
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="/agency-jekyll-theme//css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -217,7 +217,7 @@
                         <img src="img/portfolio/Kaffekassan-thumbnail.png" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
+                        <h4>Kaffekassan</h4>
                         <p class="text-muted">Android group project</p>
                     </div>
                 </div>
@@ -388,7 +388,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Send us a message if you want to get in contact</h3>
                 </div>
             </div>
             <div class="row">
@@ -479,8 +479,15 @@
                             <h2>Scheduler</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/Scheduler-thumbnail.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Schedule in (formerly eFlight Calendar) is an iOS app for pilots to get their eFlight generated schedule from the email to their calendar.<br>
-- - - -<br> Uses iOS built in calendar database / EventKit<br> Uses Firebase to sync across devices<br> Based on string parsing<br> Custom UI for in app display of the schedule </p>
+                            <p>Schedule in (formerly eFlight Calendar) is an iOS app for pilots to get their eFlight generated schedule from the email to their calendar.
+
+---
+
+*  Uses iOS built in calendar database / EventKit
+*  Uses Firebase to sync across devices
+*  Based on string parsing
+*  Custom UI for in app display of the schedule
+ </p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href>Malmö Yrkeshögskola</a>
@@ -518,13 +525,25 @@
                             <h2>Priskartan</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/Priskartan-thumbnail.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Priskartan is an app for visualization of data about the Swedish housing market by plotting sold objects on a map based on the sales price.<br><br>
-<h4>My primary contributions</h4><br> I was primarily concerned with building the network and data layers, working within the limitations put up by Booli.com when providing the data.<br><br>
-The largest obstacle to get around was the limit of the number of data objects that could be retrieved per request. My first naive solution was to let every request spawn a new request if there still were more objects to fetch. My next, better, solution was to work with <strong>Dispatch groups</strong> and queue up all requests needed to get all data and dispatch them concurrently. When all requests had completed the JSON-data was aggregated and parsed. The new solution managed to reduced the time to fetch large data sets to less than a third of the original time taken.<br><br>
-I built the parser for the complex data objects received from the Booli.com endpoint. The parser is based on the <strong>Codable</strong> protocol first launched with Swift 3.<br><br>
-Working with a designer allowed me to build a tailored user interface for the detail screen, where I had to build custom UI components to get the required blur effect on scrolling. The major hurdles when building the UI was making sure I also looked good on the newly launched iPhone X.<br><br>
-- - - -<br> <h5>Problems we haven’t solved</h5><br>
-Displaying very large data sets on the map doesn’t zoom or scroll smoothly. If we had our own backend we could have worked with tiles for the larger zoom levels and not display annotations until getting down to the lower zoom levels. </p>
+                            <p>Priskartan is an app for visualization of data about the Swedish housing market by plotting sold objects on a map based on the sales price.
+
+---
+
+#### My primary contributions
+I was primarily concerned with building the network and data layers, working within the limitations put up by Booli.com when providing the data.
+
+The largest obstacle to get around was the limit of the number of data objects that could be retrieved per request. My first naive solution was to let every request spawn a new request if there still were more objects to fetch. My next, better, solution was to work with **Dispatch groups** and queue up all requests needed to get all data and dispatch them concurrently. When all requests had completed the JSON-data was aggregated and parsed. The new solution managed to reduced the time to fetch large data sets to less than a third of the original time taken.
+
+I built the parser for the complex data objects received from the Booli.com endpoint. The parser is based on the **Codable** protocol first launched with Swift 3.
+
+Working with a designer allowed me to build a tailored user interface for the detail screen, where I had to build custom UI components to get the required blur effect on scrolling. The major hurdles when building the UI was making sure I also looked good on the newly launched iPhone X.
+
+---
+
+#### Problems we haven’t solved:
+
+Displaying very large data sets on the map doesn’t zoom or scroll smoothly. If we had our own backend we could have worked with tiles for the larger zoom levels and not display annotations until getting down to the lower zoom levels.
+ </p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href>Malmö Yrkeshögskola</a>
@@ -562,9 +581,15 @@ Displaying very large data sets on the map doesn’t zoom or scroll smoothly. If
                             <h2>Hitta Brevlåda</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/Brevlada-thumbnail.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Hitta brevlåda is an iOS app for locating you nearest PostNord postbox in Sweden and Denmark.<br>
-- - -<br>
-The app is localized to Swedish, Danish and English.<br> Works with MapKit and custom Annotations and custom ClusterAnnotations on iOS 11.<br> Pulls JSON-data from PostNord.<br> Uses the <strong>Codable</strong> protocol </p>
+                            <p>Hitta brevlåda is an iOS app for locating you nearest PostNord postbox in Sweden and Denmark.
+
+- - -
+
+*  The app is localized to Swedish, Danish and English.
+*  Works with MapKit and custom Annotations and custom ClusterAnnotations on iOS 11.
+*  Pulls JSON-data from PostNord.
+*  Uses the *Codable* protocol
+ </p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href>Malmö Yrkeshögskola</a>
@@ -602,7 +627,17 @@ The app is localized to Swedish, Danish and English.<br> Works with MapKit and c
                             <h2>Hitta Postlåda</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/Brevlada-thumbnail.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse. </p>
+                            <p><p>Hitta postlåda is an Android app for locating you nearest PostNord postbox in Sweden.</p>
+
+<hr />
+
+<ul>
+  <li>The app is prepared to be localized.</li>
+  <li>Pulls JSON-data from PostNord with <em>Retrofit</em>.</li>
+  <li>Uses Google Places API to grab street addresses</li>
+  <li>Displays a RecyclerView with the data about the postbox and your distance to it</li>
+</ul>
+ </p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href>Start Bootstrap</a>
@@ -637,13 +672,23 @@ The app is localized to Swedish, Danish and English.<br> Works with MapKit and c
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Treehouse</h2>
+                            <h2>Kaffekassan</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/Kaffekassan-thumbnail.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Kaffekassan is a micro-economy built on trust. Here we have digitized the traditional kaffekassa that’s ubiquitous in workplaces, clubs and organisations.<br><br>
-<h4>My primary contributions</h4><br> I was primarily concerned with building UI and the working with the database, merging data from several places into one usable data object.<br><br>
-Our main challenge was structuring the database to avoid overlapping but also make it easy to access and change many different nodes at the same time. We use Firestore that makes advanced querying simpler than in Firebase. The UI reacts to model changes through Livedata which gets passed to it from a repository via a  usecase and a viewmodel. We built usecases that handles every specific task on a screen, ex. <i>get all groups where user A  is member</i> or <i>get all transactions from User B</i>.<br><br>
-Kaffekassan was a team project at Malmö Yrkeshögskola together with  Max Modesto Wallin, Calle Engene and Jonas Haag.<br><br> </p>
+                            <p><p>Kaffekassan is a micro-economy built on trust. Here we have digitized the traditional kaffekassa that’s ubiquitous in workplaces, clubs and organisations.</p>
+
+<hr />
+
+<h5 id="my-primary-contributions">My primary contributions</h5>
+<p>I was primarily concerned with building UI and the working with the database, merging data from several places into one usable data object.</p>
+
+<p>Our main challenge was structuring the database to avoid overlapping but also make it easy to access and change many different nodes at the same time. We use Firestore that makes advanced querying simpler than in Firebase.
+The UI reacts to model changes through Livedata which gets passed to it from a repository via a  usecase and a viewmodel. We built usecases that handles every specific task on a screen, ex. <em>get all groups where user A  is member</em> or <em>get all transactions from User B</em>.</p>
+
+<hr />
+
+<p>Kaffekassan was a team project at Malmö Yrkeshögskola together with  Max Modesto Wallin, Calle Engene and Jonas Haag.</p>
+ </p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href>Malmö Yrkeshögskola</a>
@@ -681,15 +726,66 @@ Kaffekassan was a team project at Malmö Yrkeshögskola together with  Max Modes
                             <h2>Read Thai</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/ReadThai-thumbnail.png" class="img-responsive img-centered" alt="image-alt">
-                            <p><h5>Responsibilites</h5>
-Backend integration<br> Setting up repositiories<br> Setting up data classes<br> Fetching and merging data from Firebase & Firestore<br> User interface<br> Building Login screen<br> Buliding chapter list screen<br> Bulding about screen<br> Building settings screen<br> Building Preloading screen observing a background service<br> Implementing User authentication<br> Using FirebaseUI & FirebaseAuth<br> Google TextToSpeech<br>
-<h5>Issues & Problems</h5>
-Spent 2-3 weeks on writing and debugging a prefetch service to download and cashe all the sounds used in the app<br> Later rewrote to use on the fly generation and could scrap all caching and background service headaches<br> Merging firestore data and firebase real time database data into one object<br> With help from PerErik, wrote custom MediatorLiveData with state<br>
+                            <p><h4 id="responsibilites">Responsibilites</h4>
+<ul>
+  <li>Backend integration
+    <ul>
+      <li>Setting up repositiories</li>
+      <li>Setting up data classes</li>
+      <li>Fetching and merging data from Firebase &amp; Firestore</li>
+    </ul>
+  </li>
+  <li>User interface
+    <ul>
+      <li>Building Login screen</li>
+      <li>Buliding chapter list screen</li>
+      <li>Bulding about screen</li>
+      <li>Building settings screen</li>
+      <li>Building Preloading screen observing a background service</li>
+    </ul>
+  </li>
+  <li>Implementing User authentication
+    <ul>
+      <li>Using FirebaseUI &amp; FirebaseAuth</li>
+    </ul>
+  </li>
+  <li>Google TextToSpeech</li>
+</ul>
 
-<h5>Strategies</h5>
-Pair programming<br> Remote work<br>
-<h5>Learning oppertunities</h5>
-Kotlin<br> Firebase intricacies with Firestore vs Realtime<br> Pitfalls on Fragments lifecycle<br> Data binding and writing custom BindingAdapters<br> Clean separation and hiding<br> Refactoring<br> Code review<br> Git workflow from terminal<br> Custom drawables<br> Versioning and custom build scripts with feature flags<br> </p>
+<h4 id="issues--problems">Issues &amp; Problems</h4>
+<ul>
+  <li>Spent 2-3 weeks on writing and debugging a prefetch service to download and cashe all the sounds used in the app
+    <ul>
+      <li>Later rewrote to use on the fly generation and could scrap all caching and background service headaches</li>
+    </ul>
+  </li>
+  <li>Merging firestore data and firebase real time database data into one object
+    <ul>
+      <li>With help from PerErik, wrote custom MediatorLiveData with state</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="strategies">Strategies</h4>
+<ul>
+  <li>Pair programming</li>
+  <li>Remote work</li>
+</ul>
+
+<h4 id="learning-oppertunities">Learning oppertunities</h4>
+<ul>
+  <li>Kotlin</li>
+  <li>Firebase intricacies with Firestore vs Realtime</li>
+  <li>Pitfalls on Fragments lifecycle</li>
+  <li>Data binding and writing custom BindingAdapters</li>
+  <li>Clean separation and hiding</li>
+  <li>Refactoring</li>
+  <li>Code review</li>
+  <li>Git workflow from terminal</li>
+  <li>Custom drawables</li>
+  <li>Versioning and custom build scripts with feature flags</li>
+</ul>
+ </p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href>Rakang Software</a>
@@ -714,22 +810,22 @@ Kotlin<br> Firebase intricacies with Firestore vs Realtime<br> Pitfalls on Fragm
 
 
      <!-- jQuery Version 1.11.0 -->
-    <script src="/agency-jekyll-theme//js/jquery-1.11.0.js"></script>
+    <script src="/js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/agency-jekyll-theme//js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="/agency-jekyll-theme//js/jquery.easing.min.js"></script>
-    <script src="/agency-jekyll-theme//js/classie.js"></script>
-    <script src="/agency-jekyll-theme//js/cbpAnimatedHeader.js"></script>
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="/agency-jekyll-theme//js/jqBootstrapValidation.js"></script>
-    <script src="/agency-jekyll-theme//js/contact_me.js"></script>
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <script src="/js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="/agency-jekyll-theme//js/agency.js"></script>
+    <script src="/js/agency.js"></script>
 
 
     </body>

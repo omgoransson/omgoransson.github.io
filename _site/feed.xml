@@ -3,19 +3,28 @@
   <channel>
     <title>OMG Apps</title>
     <description>Mobile developer portfolio for Ola Göransson - iOS and Android.</description>
-    <link>http://localhost:4000/agency-jekyll-theme//</link>
-    <atom:link href="http://localhost:4000/agency-jekyll-theme//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 May 2018 00:07:02 +0200</pubDate>
-    <lastBuildDate>Tue, 15 May 2018 00:07:02 +0200</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 15 May 2018 02:11:30 +0200</pubDate>
+    <lastBuildDate>Tue, 15 May 2018 02:11:30 +0200</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
     
       <item>
         <title>Scheduler</title>
-        <description>
+        <description>&lt;p&gt;Schedule in (formerly eFlight Calendar) is an iOS app for pilots to get their eFlight generated schedule from the email to their calendar.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Uses iOS built in calendar database / EventKit&lt;/li&gt;
+  &lt;li&gt;Uses Firebase to sync across devices&lt;/li&gt;
+  &lt;li&gt;Based on string parsing&lt;/li&gt;
+  &lt;li&gt;Custom UI for in app display of the schedule&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Wed, 10 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/agency-jekyll-theme//ios%20development/2018/01/10/project-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/agency-jekyll-theme//ios%20development/2018/01/10/project-1/</guid>
+        <link>http://localhost:4000/ios%20development/2018/01/10/project-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/ios%20development/2018/01/10/project-1/</guid>
         
         
         <category>iOS Development</category>
@@ -24,11 +33,28 @@
     
       <item>
         <title>Priskartan</title>
-        <description>
+        <description>&lt;p&gt;Priskartan is an app for visualization of data about the Swedish housing market by plotting sold objects on a map based on the sales price.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;my-primary-contributions&quot;&gt;My primary contributions&lt;/h4&gt;
+&lt;p&gt;I was primarily concerned with building the network and data layers, working within the limitations put up by Booli.com when providing the data.&lt;/p&gt;
+
+&lt;p&gt;The largest obstacle to get around was the limit of the number of data objects that could be retrieved per request. My first naive solution was to let every request spawn a new request if there still were more objects to fetch. My next, better, solution was to work with &lt;strong&gt;Dispatch groups&lt;/strong&gt; and queue up all requests needed to get all data and dispatch them concurrently. When all requests had completed the JSON-data was aggregated and parsed. The new solution managed to reduced the time to fetch large data sets to less than a third of the original time taken.&lt;/p&gt;
+
+&lt;p&gt;I built the parser for the complex data objects received from the Booli.com endpoint. The parser is based on the &lt;strong&gt;Codable&lt;/strong&gt; protocol first launched with Swift 3.&lt;/p&gt;
+
+&lt;p&gt;Working with a designer allowed me to build a tailored user interface for the detail screen, where I had to build custom UI components to get the required blur effect on scrolling. The major hurdles when building the UI was making sure I also looked good on the newly launched iPhone X.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;problems-we-havent-solved&quot;&gt;Problems we haven’t solved:&lt;/h4&gt;
+
+&lt;p&gt;Displaying very large data sets on the map doesn’t zoom or scroll smoothly. If we had our own backend we could have worked with tiles for the larger zoom levels and not display annotations until getting down to the lower zoom levels.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/agency-jekyll-theme//ios%20development/2018/01/09/project-2/</link>
-        <guid isPermaLink="true">http://localhost:4000/agency-jekyll-theme//ios%20development/2018/01/09/project-2/</guid>
+        <link>http://localhost:4000/ios%20development/2018/01/09/project-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/ios%20development/2018/01/09/project-2/</guid>
         
         
         <category>iOS Development</category>
@@ -37,11 +63,20 @@
     
       <item>
         <title>Hitta Brevlåda</title>
-        <description>
+        <description>&lt;p&gt;Hitta brevlåda is an iOS app for locating you nearest PostNord postbox in Sweden and Denmark.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The app is localized to Swedish, Danish and English.&lt;/li&gt;
+  &lt;li&gt;Works with MapKit and custom Annotations and custom ClusterAnnotations on iOS 11.&lt;/li&gt;
+  &lt;li&gt;Pulls JSON-data from PostNord.&lt;/li&gt;
+  &lt;li&gt;Uses the &lt;em&gt;Codable&lt;/em&gt; protocol&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Mon, 08 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/agency-jekyll-theme//ios%20development/2018/01/08/project-3/</link>
-        <guid isPermaLink="true">http://localhost:4000/agency-jekyll-theme//ios%20development/2018/01/08/project-3/</guid>
+        <link>http://localhost:4000/ios%20development/2018/01/08/project-3/</link>
+        <guid isPermaLink="true">http://localhost:4000/ios%20development/2018/01/08/project-3/</guid>
         
         
         <category>iOS Development</category>
@@ -50,11 +85,20 @@
     
       <item>
         <title>Hitta Postlåda</title>
-        <description>
+        <description>&lt;p&gt;Hitta postlåda is an Android app for locating you nearest PostNord postbox in Sweden.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The app is prepared to be localized.&lt;/li&gt;
+  &lt;li&gt;Pulls JSON-data from PostNord with &lt;em&gt;Retrofit&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Uses Google Places API to grab street addresses&lt;/li&gt;
+  &lt;li&gt;Displays a RecyclerView with the data about the postbox and your distance to it&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Sun, 07 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/agency-jekyll-theme//web%20development/2018/01/07/project-4/</link>
-        <guid isPermaLink="true">http://localhost:4000/agency-jekyll-theme//web%20development/2018/01/07/project-4/</guid>
+        <link>http://localhost:4000/web%20development/2018/01/07/project-4/</link>
+        <guid isPermaLink="true">http://localhost:4000/web%20development/2018/01/07/project-4/</guid>
         
         
         <category>Web Development</category>
@@ -62,12 +106,24 @@
       </item>
     
       <item>
-        <title>Treehouse</title>
-        <description>
+        <title>Kaffekassan</title>
+        <description>&lt;p&gt;Kaffekassan is a micro-economy built on trust. Here we have digitized the traditional kaffekassa that’s ubiquitous in workplaces, clubs and organisations.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;my-primary-contributions&quot;&gt;My primary contributions&lt;/h5&gt;
+&lt;p&gt;I was primarily concerned with building UI and the working with the database, merging data from several places into one usable data object.&lt;/p&gt;
+
+&lt;p&gt;Our main challenge was structuring the database to avoid overlapping but also make it easy to access and change many different nodes at the same time. We use Firestore that makes advanced querying simpler than in Firebase.
+The UI reacts to model changes through Livedata which gets passed to it from a repository via a  usecase and a viewmodel. We built usecases that handles every specific task on a screen, ex. &lt;em&gt;get all groups where user A  is member&lt;/em&gt; or &lt;em&gt;get all transactions from User B&lt;/em&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Kaffekassan was a team project at Malmö Yrkeshögskola together with  Max Modesto Wallin, Calle Engene and Jonas Haag.&lt;/p&gt;
 </description>
         <pubDate>Sat, 06 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/agency-jekyll-theme//android%20development/2018/01/06/project-5/</link>
-        <guid isPermaLink="true">http://localhost:4000/agency-jekyll-theme//android%20development/2018/01/06/project-5/</guid>
+        <link>http://localhost:4000/android%20development/2018/01/06/project-5/</link>
+        <guid isPermaLink="true">http://localhost:4000/android%20development/2018/01/06/project-5/</guid>
         
         
         <category>Android Development</category>
@@ -76,11 +132,69 @@
     
       <item>
         <title>Read Thai</title>
-        <description>
+        <description>&lt;h4 id=&quot;responsibilites&quot;&gt;Responsibilites&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Backend integration
+    &lt;ul&gt;
+      &lt;li&gt;Setting up repositiories&lt;/li&gt;
+      &lt;li&gt;Setting up data classes&lt;/li&gt;
+      &lt;li&gt;Fetching and merging data from Firebase &amp;amp; Firestore&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;User interface
+    &lt;ul&gt;
+      &lt;li&gt;Building Login screen&lt;/li&gt;
+      &lt;li&gt;Buliding chapter list screen&lt;/li&gt;
+      &lt;li&gt;Bulding about screen&lt;/li&gt;
+      &lt;li&gt;Building settings screen&lt;/li&gt;
+      &lt;li&gt;Building Preloading screen observing a background service&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Implementing User authentication
+    &lt;ul&gt;
+      &lt;li&gt;Using FirebaseUI &amp;amp; FirebaseAuth&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Google TextToSpeech&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;issues--problems&quot;&gt;Issues &amp;amp; Problems&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spent 2-3 weeks on writing and debugging a prefetch service to download and cashe all the sounds used in the app
+    &lt;ul&gt;
+      &lt;li&gt;Later rewrote to use on the fly generation and could scrap all caching and background service headaches&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Merging firestore data and firebase real time database data into one object
+    &lt;ul&gt;
+      &lt;li&gt;With help from PerErik, wrote custom MediatorLiveData with state&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;strategies&quot;&gt;Strategies&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pair programming&lt;/li&gt;
+  &lt;li&gt;Remote work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;learning-oppertunities&quot;&gt;Learning oppertunities&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Kotlin&lt;/li&gt;
+  &lt;li&gt;Firebase intricacies with Firestore vs Realtime&lt;/li&gt;
+  &lt;li&gt;Pitfalls on Fragments lifecycle&lt;/li&gt;
+  &lt;li&gt;Data binding and writing custom BindingAdapters&lt;/li&gt;
+  &lt;li&gt;Clean separation and hiding&lt;/li&gt;
+  &lt;li&gt;Refactoring&lt;/li&gt;
+  &lt;li&gt;Code review&lt;/li&gt;
+  &lt;li&gt;Git workflow from terminal&lt;/li&gt;
+  &lt;li&gt;Custom drawables&lt;/li&gt;
+  &lt;li&gt;Versioning and custom build scripts with feature flags&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Fri, 05 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/agency-jekyll-theme//android%20development/2018/01/05/project-6/</link>
-        <guid isPermaLink="true">http://localhost:4000/agency-jekyll-theme//android%20development/2018/01/05/project-6/</guid>
+        <link>http://localhost:4000/android%20development/2018/01/05/project-6/</link>
+        <guid isPermaLink="true">http://localhost:4000/android%20development/2018/01/05/project-6/</guid>
         
         
         <category>Android Development</category>

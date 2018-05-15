@@ -10,13 +10,15 @@ alt: image-alt
 project-date: October 2017
 client: Malmö Yrkeshögskola
 category: iOS Development
-description:
-  Schedule in (formerly eFlight Calendar) is an iOS app for pilots to get their eFlight generated schedule from the email to their calendar.<br>
+#description:
 
-  - - - -<br>
-  Uses iOS built in calendar database / EventKit<br>
-  Uses Firebase to sync across devices<br>
-  Based on string parsing<br>
-  Custom UI for in app display of the schedule
 
 ---
+Schedule in (formerly eFlight Calendar) is an iOS app for pilots to get their eFlight generated schedule from the email to their calendar.
+
+---
+
+*  Uses iOS built in calendar database / EventKit
+*  Uses Firebase to sync across devices
+*  Based on string parsing
+*  Custom UI for in app display of the schedule

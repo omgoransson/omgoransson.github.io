@@ -10,6 +10,14 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
 ---
+
+
+Hitta postlåda is an Android app for locating you nearest PostNord postbox in Sweden.
+
+- - -
+
+*  The app is prepared to be localized.
+*  Pulls JSON-data from PostNord with *Retrofit*.
+*  Uses Google Places API to grab street addresses
+*  Displays a RecyclerView with the data about the postbox and your distance to it

@@ -10,14 +10,14 @@ alt: image-alt
 project-date: December 2017
 client: Malmö Yrkeshögskola
 category: iOS Development
-description:
-  Hitta brevlåda is an iOS app for locating you nearest PostNord postbox in Sweden and Denmark.<br>
-
-  - - -<br>
-
-  The app is localized to Swedish, Danish and English.<br>
-  Works with MapKit and custom Annotations and custom ClusterAnnotations on iOS 11.<br>
-  Pulls JSON-data from PostNord.<br>
-  Uses the <strong>Codable</strong> protocol
-
+#description:
 ---
+
+Hitta brevlåda is an iOS app for locating you nearest PostNord postbox in Sweden and Denmark.
+
+- - -
+
+*  The app is localized to Swedish, Danish and English.
+*  Works with MapKit and custom Annotations and custom ClusterAnnotations on iOS 11.
+*  Pulls JSON-data from PostNord.
+*  Uses the *Codable* protocol
