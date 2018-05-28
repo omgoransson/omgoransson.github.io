@@ -15,7 +15,7 @@ category: iOS Development
 ---
 <center>
 <a href="https://itunes.apple.com/se/app/priskartan/id1315408076?mt=8">
-<img border="0" alt="Scheduler on App Store" src="/img/portfolio/download.svg" height="50">
+<img border="0" alt="Priskartan on App Store" src="/img/portfolio/download.svg" height="50">
 </a>
 </center>
 

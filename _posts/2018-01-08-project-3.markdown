@@ -14,7 +14,7 @@ category: iOS Development
 ---
 <center>
 <a href="https://itunes.apple.com/se/app/hitta-brevlåda/id1316792677?mt=8">
-<img border="0" alt="Scheduler on App Store" src="/img/portfolio/download.svg" height="50">
+<img border="0" alt="Hitta Brevlada on App Store" src="/img/portfolio/download.svg" height="50">
 </a>
 </center>
 
