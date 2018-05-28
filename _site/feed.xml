@@ -5,8 +5,8 @@
     <description>Mobile developer portfolio for Ola Göransson - iOS and Android.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 28 May 2018 10:27:13 +0200</pubDate>
-    <lastBuildDate>Mon, 28 May 2018 10:27:13 +0200</lastBuildDate>
+    <pubDate>Mon, 28 May 2018 10:37:17 +0200</pubDate>
+    <lastBuildDate>Mon, 28 May 2018 10:37:17 +0200</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
     
       <item>
@@ -41,7 +41,7 @@
         <title>Priskartan</title>
         <description>&lt;center&gt;
 &lt;a href=&quot;https://itunes.apple.com/se/app/priskartan/id1315408076?mt=8&quot;&gt;
-&lt;img border=&quot;0&quot; alt=&quot;Scheduler on App Store&quot; src=&quot;/img/portfolio/download.svg&quot; height=&quot;50&quot; /&gt;
+&lt;img border=&quot;0&quot; alt=&quot;Priskartan on App Store&quot; src=&quot;/img/portfolio/download.svg&quot; height=&quot;50&quot; /&gt;
 &lt;/a&gt;
 &lt;/center&gt;
 
@@ -77,7 +77,7 @@
         <title>Hitta Brevlåda</title>
         <description>&lt;center&gt;
 &lt;a href=&quot;https://itunes.apple.com/se/app/hitta-brevlåda/id1316792677?mt=8&quot;&gt;
-&lt;img border=&quot;0&quot; alt=&quot;Scheduler on App Store&quot; src=&quot;/img/portfolio/download.svg&quot; height=&quot;50&quot; /&gt;
+&lt;img border=&quot;0&quot; alt=&quot;Hitta Brevlada on App Store&quot; src=&quot;/img/portfolio/download.svg&quot; height=&quot;50&quot; /&gt;
 &lt;/a&gt;
 &lt;/center&gt;
 
@@ -103,7 +103,12 @@
     
       <item>
         <title>Hitta Postlåda</title>
-        <description>&lt;p&gt;Hitta postlåda is an Android app for locating you nearest PostNord postbox in Sweden.&lt;/p&gt;
+        <description>&lt;center&gt;
+&lt;a href=&quot;https://play.google.com/store/apps/details?id=se.omgapps.postbox&amp;amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&quot;&gt;
+&lt;img alt=&quot;Get it on Google Play&quot; src=&quot;https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png&quot; height=&quot;60&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+
+&lt;p&gt;Hitta postlåda is an Android app for locating you nearest PostNord postbox in Sweden.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -125,7 +130,12 @@
     
       <item>
         <title>Kaffekassan</title>
-        <description>&lt;p&gt;Kaffekassan is a micro-economy built on trust. Here we have digitized the traditional kaffekassa that’s ubiquitous in workplaces, clubs and organisations.&lt;/p&gt;
+        <description>&lt;center&gt;
+&lt;a href=&quot;https://play.google.com/store/apps/details?id=se.modestotech.kaffekassan&amp;amp;hl=sv&amp;amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&quot;&gt;
+&lt;img alt=&quot;Get it on Google Play&quot; src=&quot;https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png&quot; height=&quot;60&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+
+&lt;p&gt;Kaffekassan is a micro-economy built on trust. Here we have digitized the traditional kaffekassa that’s ubiquitous in workplaces, clubs and organisations.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -150,7 +160,12 @@ The UI reacts to model changes through Livedata which gets passed to it from a r
     
       <item>
         <title>Read Thai</title>
-        <description>&lt;h4 id=&quot;responsibilites&quot;&gt;Responsibilites&lt;/h4&gt;
+        <description>&lt;center&gt;
+&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.rakangsoftware.readthai&amp;amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&quot;&gt;
+&lt;img alt=&quot;Get it on Google Play&quot; src=&quot;https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png&quot; height=&quot;60&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+
+&lt;h4 id=&quot;responsibilites&quot;&gt;Responsibilites&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Backend integration
     &lt;ul&gt;
