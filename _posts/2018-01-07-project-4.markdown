@@ -4,7 +4,7 @@ subtitle: Android school project
 layout: default
 modal-id: 4
 date: 2018-01-07
-img: Brevlada-thumbnail.png
+img: brevlada_screen_android.png
 thumbnail: Brevlada-thumbnail.png
 alt: image-alt
 project-date: April 2014

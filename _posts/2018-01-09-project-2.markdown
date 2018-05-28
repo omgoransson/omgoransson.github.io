@@ -4,7 +4,7 @@ subtitle: iOS group project
 layout: default
 modal-id: 2
 date: 2018-01-09
-img: Priskartan-thumbnail.png
+img: priskartan_screen.png
 thumbnail: Priskartan-thumbnail.png
 alt: image-alt
 project-date: November 2017

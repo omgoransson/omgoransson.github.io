@@ -4,7 +4,7 @@ subtitle: Android client project
 layout: default
 modal-id: 6
 date: 2018-01-05
-img: ReadThai-thumbnail.png
+img: readthai_screen.png
 thumbnail: ReadThai-thumbnail.png
 alt: image-alt
 project-date: May 2018
