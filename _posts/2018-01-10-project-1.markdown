@@ -14,6 +14,13 @@ category: iOS Development
 
 
 ---
+<center>
+<a href="https://itunes.apple.com/se/app/schedule-in/id999836882?mt=8">
+<img border="0" alt="Scheduler on App Store" src="/img/portfolio/download.svg" height="50">
+</a>
+</center>
+
+
 Schedule in (formerly eFlight Calendar) is an iOS app for pilots to get their eFlight generated schedule from the email to their calendar.
 
 ---

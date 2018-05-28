@@ -13,6 +13,11 @@ category: iOS Development
 #description:
 
 ---
+<center>
+<a href="https://itunes.apple.com/se/app/priskartan/id1315408076?mt=8">
+<img border="0" alt="Scheduler on App Store" src="/img/portfolio/download.svg" height="50">
+</a>
+</center>
 
 Priskartan is an app for visualization of data about the Swedish housing market by plotting sold objects on a map based on the sales price.
 
